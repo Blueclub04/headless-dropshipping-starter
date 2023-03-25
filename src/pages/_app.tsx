@@ -10,6 +10,7 @@ import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+   <script type="text/javascript" src="https://cdn.segment.com/analytics.js/v1/JvO0WHVFapJhlVOT7Lzdee7IwDXLdMMq/analytics.min.js"></script>
     <WishlistProvider>
       <Layout>
         <DefaultSeo {...defaultSEO} />
