@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </Layout>
     </WishlistProvider>
-    <script type="text/javascript" src="https://cdn.segment.com/analytics.js/v1/JvO0WHVFapJhlVOT7Lzdee7IwDXLdMMq/analytics.min.js"></script>
   );
+   <script type="text/javascript" src="https://cdn.segment.com/analytics.js/v1/JvO0WHVFapJhlVOT7Lzdee7IwDXLdMMq/analytics.min.js"></script>
 }
 
 export default MyApp;
